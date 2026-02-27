@@ -1,10 +1,10 @@
 {
-  "name": "docus-docs",
-  "description": "Official documentation for Docus, also used as playground.",
+  "name": "omnipaw-docs",
+  "description": "Official documentation for OmniPaw, also used as playground.",
   "type": "module",
   "scripts": {
-    "build": "nuxt build --extends ./layer",
-    "dev": "nuxt dev --extends ./layer"
+    "build": "nuxt build",
+    "dev": "nuxt dev"
   },
   "dependencies": {
     "@ai-sdk/vue": "3.0.97",

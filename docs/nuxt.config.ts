@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   extends: ['./layer'],
+  $production: {
+    studio: false,
+  },
   modules: ['@nuxtjs/plausible', '@nuxtjs/i18n', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   site: {
@@ -27,12 +30,12 @@ export default defineNuxtConfig({
     }],
   },
   llms: {
-    domain: 'https://docus.dev',
+    domain: 'https://omnipaw.vercel.app',
     title: 'OmniPaw',
-    description: 'Write beautiful docs with Markdown.',
+    description: 'The most secure and reliable AI agent kernel for building production-ready AI applications.',
     full: {
       title: 'OmniPaw',
-      description: 'Write beautiful docs with Markdown.',
+      description: 'The most secure and reliable AI agent kernel for building production-ready AI applications.',
     },
   },
   mcp: {
@@ -43,8 +46,8 @@ export default defineNuxtConfig({
     route: '/admin',
     repository: {
       provider: 'github',
-      owner: 'nuxt-content',
-      repo: 'docus',
+      owner: 'OmniPaw',
+      repo: 'OmniPaw',
       rootDir: 'docs',
     },
   },

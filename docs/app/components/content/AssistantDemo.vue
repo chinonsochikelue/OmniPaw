@@ -11,12 +11,12 @@ const input = ref('')
 const suggestedQuestionsMap: Record<string, string[]> = {
   en: [
     'How do I get started?',
-    'What is Docus?',
+    'What is OmniPaw?',
     'How to customize the theme?',
   ],
   fr: [
     'Comment démarrer ?',
-    'Qu\'est-ce que Docus ?',
+    'Qu\'est-ce que OmniPaw ?',
     'Comment personnaliser le thème ?',
   ],
 }
