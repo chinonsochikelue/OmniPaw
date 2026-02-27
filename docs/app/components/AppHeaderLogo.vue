@@ -132,7 +132,9 @@ onBeforeUnmount(() => blinkCleanup?.())
 
       <!-- Wordmark -->
       <span class="logo-wordmark">
+        <!-- Hide on mobile devices -->
         <text 
+        class="hidden md:block"
         x="38"
         y="24"
         fill="currentColor"
